@@ -7,11 +7,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
+          <a
+            className="App-link"
+            href="https://github.com/AlaaShaheen2/Math-Magicians"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Alaa Project
+          </a>
         </p>
         <a
           className="App-link"
