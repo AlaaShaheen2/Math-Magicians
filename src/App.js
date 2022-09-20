@@ -1,11 +1,20 @@
+import { Component } from 'react';
 import './App.css';
+import Calc from './components/calc';
 
-function App() {
-  return (
-    <div className="App">
-      <h1> Heading </h1>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div>
+        <Calc />
+      </div>
+    );
+  }
 }
 
 export default App;
