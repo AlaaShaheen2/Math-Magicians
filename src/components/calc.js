@@ -10,7 +10,9 @@ const Calculator = () => {
   const click = (e) => {
     const result = calculate({
       total,
-      next, operation, err,
+      next,
+      operation,
+      err,
     }, e.target.value);
     setTotal(() => result.total);
     setNext(() => result.next);
@@ -24,7 +26,7 @@ const Calculator = () => {
           <div className="display">
             <span className="main-btn">
               {next || operation || total || err || 0}
-              </span>
+            </span>
           </div>
         </div>
         <div className="numbers">
