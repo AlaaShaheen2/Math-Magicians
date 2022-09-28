@@ -1,0 +1,14 @@
+.quote-page{
+    padding: 35px;
+    margin-top: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote-page p{
+    
+font-size: 50px;
+
+}

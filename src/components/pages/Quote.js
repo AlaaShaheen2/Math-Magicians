@@ -1,3 +1,5 @@
+import './Quote.css';
+
 const QuotePage = () => (
   <main className="quote-page">
     <p>
