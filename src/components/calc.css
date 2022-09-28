@@ -5,13 +5,14 @@
 
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .container {
   width: 35rem;
   margin-top: 50px;
+  margin-right: 100px;
 }
 
 .display {
@@ -47,4 +48,12 @@
 .end {
   grid-template-columns: 50% 25% 25%;
   display: grid;
+}
+
+.main-title {
+  font-size: 25px;
+  letter-spacing: 2px;
+  align-self: flex-start;
+  margin-top: 45px;
+  margin-left: 40px;
 }
